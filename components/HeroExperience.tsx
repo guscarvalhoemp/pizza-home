@@ -195,7 +195,7 @@ export default function HeroExperience() {
       <section
         ref={heroRef}
         id="hero"
-        className="relative h-[100dvh] w-full overflow-hidden bg-pizza-black"
+        className="relative h-[100svh] w-full overflow-hidden bg-pizza-black"
       >
         {/* Brand backdrop: the medallion, visible behind the whole hero */}
         <div className="absolute inset-0">
@@ -211,10 +211,10 @@ export default function HeroExperience() {
         </div>
 
         {/* Collage of h1 (from top), h2 (from bottom), h3 (from the right) */}
-        <div className="pointer-events-none absolute inset-0 flex items-start justify-between gap-4 px-7 pt-[13dvh] lg:block lg:gap-0 lg:p-0">
+        <div className="pointer-events-none absolute inset-0 flex items-start justify-between px-5 pt-[max(10svh,4.6rem)] lg:block lg:gap-0 lg:p-0">
           <div
             ref={panelH1Ref}
-            className="relative order-3 aspect-[3/4] h-[min(21dvh,170px)] flex-none overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:right-[3%] lg:top-[4%] lg:h-auto lg:w-[28%] lg:max-w-[340px] lg:rounded-[2rem]"
+            className="relative order-3 aspect-[3/4] h-[min(26svh,220px)] flex-none overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:right-[3%] lg:top-[4%] lg:h-auto lg:w-[28%] lg:max-w-[340px] lg:rounded-[2rem]"
             style={{ willChange: "transform, opacity" }}
           >
             <video
@@ -231,7 +231,7 @@ export default function HeroExperience() {
           </div>
           <div
             ref={panelH2Ref}
-            className="relative order-1 mt-3 aspect-[3/4] h-[min(18dvh,145px)] flex-none -rotate-3 overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:left-auto lg:right-[21%] lg:top-auto lg:bottom-[4%] lg:mt-0 lg:h-auto lg:w-[19%] lg:max-w-[230px] lg:rounded-[2rem]"
+            className="relative order-1 mt-[3svh] aspect-[3/4] h-[min(21svh,175px)] flex-none -rotate-3 overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:left-auto lg:right-[21%] lg:top-auto lg:bottom-[4%] lg:mt-0 lg:h-auto lg:w-[19%] lg:max-w-[230px] lg:rounded-[2rem]"
             style={{ willChange: "transform, opacity" }}
           >
             <video
@@ -248,7 +248,7 @@ export default function HeroExperience() {
           </div>
           <div
             ref={panelH3Ref}
-            className="relative order-2 mt-8 aspect-[9/16] h-[min(16dvh,130px)] flex-none rotate-2 overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:right-[1%] lg:top-[30%] lg:mt-0 lg:h-auto lg:w-[21%] lg:max-w-[260px] lg:rounded-[2rem]"
+            className="relative order-2 -mx-[1.1rem] mt-[9svh] aspect-[9/16] h-[min(17svh,145px)] flex-none rotate-2 overflow-hidden rounded-[1.1rem] shadow-2xl shadow-black/60 lg:absolute lg:right-[1%] lg:top-[30%] lg:mx-0 lg:mt-0 lg:h-auto lg:w-[21%] lg:max-w-[260px] lg:rounded-[2rem]"
             style={{ willChange: "transform, opacity" }}
           >
             <video

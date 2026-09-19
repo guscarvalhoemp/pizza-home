@@ -64,7 +64,7 @@ export default function AssemblyShowcase() {
     <section
       ref={sectionRef}
       id="montagem"
-      className="relative flex h-[100dvh] flex-col overflow-hidden bg-pizza-linen pt-24 sm:pt-28"
+      className="relative flex h-[100svh] flex-col overflow-hidden bg-pizza-linen pt-24 sm:pt-28"
     >
       <div className="relative z-10 flex-none px-6 sm:px-8 lg:px-14">
         <Reveal>
@@ -89,7 +89,7 @@ export default function AssemblyShowcase() {
             }}
             className="absolute inset-0 flex flex-col items-center justify-center px-6 will-change-transform"
           >
-            <div className="aspect-[3/4] h-[46dvh] max-h-[460px] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-pizza-ink/30 sm:h-[52dvh]">
+            <div className="aspect-[3/4] h-[42svh] max-h-[460px] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-pizza-ink/30 sm:h-[52svh]">
               <video
                 ref={initAutoplayVideo}
                 src={clip.video}
